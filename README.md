@@ -57,4 +57,4 @@ This application/site was created as a submission to a [DevChallenges](https://d
 ## Contact
 
 - GitHub [@pandagenduts](https://github.com/pandagenduts)
-- Email donny.rendi@gmail.com
+- Email donnirendi@gmail.com
