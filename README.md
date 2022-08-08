@@ -8,7 +8,7 @@
 
 <div align="center">
   <h3>
-    <a href="https://startling-stardust-be47b5.netlify.app/" target="_blank">
+    <a href="https://bejewelled-florentine-50e6d4.netlify.app/" target="_blank">
       Demo
     </a>
     <span> | </span>
@@ -35,7 +35,7 @@
 
 ## Overview
 
-Check the [demo](https://startling-stardust-be47b5.netlify.app/) on how i did it :)
+Check the [demo](https://bejewelled-florentine-50e6d4.netlify.app/) on how i did it :)
 
 ### Built With
 
@@ -57,3 +57,4 @@ This application/site was created as a submission to a [DevChallenges](https://d
 ## Contact
 
 - GitHub [@pandagenduts](https://github.com/pandagenduts)
+- Email @donny.rendi@gmail.com
