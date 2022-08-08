@@ -1,0 +1,14 @@
+:root {
+    --col-bd: #bdbdbd;
+}
+
+* {
+    margin: 0; 
+    padding: 0; 
+    box-sizing: border-box;
+}
+
+.shipping {
+    border-top: 1px solid var(--col-bd);
+    border-bottom: 1px solid var(--col-bd);
+}
