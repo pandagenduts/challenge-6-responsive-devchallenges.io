@@ -1,6 +1,6 @@
 <!-- Please update value in the {}  -->
 
-<h1 align="center">Checkout Page - Challenge 6 Responsive - devchallenges.io</h1>
+<h1 align="center">Checkout Page - Challenge 6 Responsive</h1>
 
 <div align="center">
    Solution for a challenge from  <a href="https://devchallenges.io/challenges/0J1NxxGhOUYVqihwegfO" target="_blank">devchallenges.io</a>.
