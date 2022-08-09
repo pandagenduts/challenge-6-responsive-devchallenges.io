@@ -18,48 +18,56 @@
                 <form action="#">
                     <h6>Contact information</h6>
 
-                    <div class="email">
+                    <div class="forms email">
                         <label for="email">E-mail</label>
-                        <input type="email" name="email" id="email" placeholder="Enter your email...">
+                        <input type="email" name="email" id="email" placeholder="Enter your email..." required>
+                        <span class="material-symbols-outlined">mail</span>
                     </div>
     
-                    <div class="phone">
+                    <div class="forms phone">
                         <label for="phone">Phone</label>
-                        <input type="tel" name="phone" id="phone" placeholder="Enter your phone...">
+                        <input type="tel" name="phone" id="phone" placeholder="Enter your phone..." required>
+                        <span class="material-symbols-outlined">call</span>
                     </div>
     
                     <h6>Shipping address</h6>
-                    <div class="fullname">
+                    <div class="forms fullname">
                         <label for="fullname">Full name</label>
-                        <input type="text" name="fullname" id="fullname" value="Rodney Cotton">
+                        <input type="text" name="fullname" id="fullname" placeholder="Enter your full name..." value="Rodney Cotton" required>
+                        <span class="material-symbols-outlined">account_circle</span>
                     </div>
                     
-                    <div class="address">
+                    <div class="forms address">
                         <label for="address">Address</label>
-                        <input type="text" name="address" id="address" placeholder="Your address..">
+                        <input type="text" name="address" id="address" placeholder="Your address.." required>
+                        <span class="material-symbols-outlined">home</span>
                     </div>
 
-                    <div class="city">
+                    <div class="forms city">
                         <label for="city">City</label>
                         <input type="text" name="city" id="city" placeholder="Your city..">
+                        <span class="material-symbols-outlined">apartment</span>
                     </div>
 
                     <div class="main-left__split">
-                        <div class="country">
+                        <div class="forms country">
                             <label for="country">Country</label>
-                            <select name="country" id="country">
-                                <option value="0">Your country..</option>
+                            <select name="country" id="country" required>
+                                <option value="" selected>Your country...</option>
+                                <option value="0">Country A</option>
                                 <option value="1">Country B</option>
                                 <option value="2">Country C</option>
                                 <option value="3">Country D</option>
                                 <option value="4">Country E</option>
-                                
                             </select>
+                            <span class="material-symbols-outlined">public</span>
+                            <span class="material-symbols-outlined">expand_more</span>
                         </div>
                         
-                        <div class="postal-code">
+                        <div class="forms postal-code">
                             <label for="postalcode">Postal code</label>
                             <input type="number" name="postalcode" id="postalcode" min="0" minlength="5" placeholder="Your postal code..">
+                            <span class="material-symbols-outlined">markunread_mailbox</span>
                         </div>
                     </div>
 
@@ -79,11 +87,11 @@
                         <img src="assets/photo1.png" alt="vintage-backbag-photo">
                         <div class="mr__box__desc">
                             <p class="product-title">Vintage Backbag</p>
-                            <p class="product-price">$54.99 <span>$94.99</span></p>
+                            <p class="product-price">$54.99<span>$94.99</span></p>
                             <div class="product-amount p-a-1">
-                                <span class="material-symbols-outlined">remove</span>
+                                <span class="material-symbols-outlined" id="p1-sub">remove</span>
                                 <span class="p1-quantity">1</span>
-                                <span class="material-symbols-outlined">add</span>
+                                <span class="material-symbols-outlined" id="p1-add">add</span>
                             </div>
                         </div>
                     </div>
@@ -94,9 +102,9 @@
                             <p class="product-title">Levi shoes</p>
                             <p class="product-price">$74.99<span>$124.99</span></p>
                             <div class="product-amount p-a-2">
-                                <span class="material-symbols-outlined">remove</span>
+                                <span class="material-symbols-outlined" id="p2-sub">remove</span>
                                 <span class="p2-quantity">1</span>
-                                <span class="material-symbols-outlined">add</span>
+                                <span class="material-symbols-outlined" id="p2-add">add</span>
                             </div>
                         </div>
                     </div>
@@ -107,11 +115,15 @@
                     </div>
                     <div class="final total">
                         <h6>Total</h6>
-                        <span class="total-price">$148.98</span>
+                        <span>$<span class="total-price">148.98</span></span>
                     </div>
                 </div>
             </div>
         </main>
+
+        <footer>
+            <p>created by <a href="https://github.com/pandagenduts" target="_blank">PandaGenduts</a> - <a href="https://devchallenges.io/" target="_blank">devChallenges.io</a></p>
+        </footer>
     </section>
 </body>
 </html>
