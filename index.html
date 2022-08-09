@@ -53,36 +53,52 @@
                                 <option value="2">Country C</option>
                                 <option value="3">Country D</option>
                                 <option value="4">Country E</option>
+                                
                             </select>
                         </div>
-
+                        
                         <div class="postal-code">
                             <label for="postalcode">Postal code</label>
-                            <input type="number" name="postalcode" id="postalcode" placeholder="Your postal code..">
+                            <input type="number" name="postalcode" id="postalcode" min="0" minlength="5" placeholder="Your postal code..">
                         </div>
                     </div>
-                    
+
                     <div class="agreement">
                         <input type="checkbox" name="agreement" id="agreement" value="agree">
                         <label for="agreement">Save this information for next time</label>
                     </div>
-
-                    <input type="submit" value="Continue" class="submit-button">
+                    <div class="submit">
+                        <input type="submit" value="Continue" class="submit-button">
+                    </div>
                 </form>
             </div>
 
             <div class="main-right">
                 <div class="main-right__container">
-                    <div class="product-1">
+                    <div class="product-1 mr__box">
                         <img src="assets/photo1.png" alt="vintage-backbag-photo">
-                        <p class="product-title">Vintage Backbag</p>
-                        <p class="product-price">$54.99 <span>$94.99</span></p>
+                        <div class="mr__box__desc">
+                            <p class="product-title">Vintage Backbag</p>
+                            <p class="product-price">$54.99 <span>$94.99</span></p>
+                            <div class="product-amount p-a-1">
+                                <span class="material-symbols-outlined">remove</span>
+                                <span class="p1-quantity">1</span>
+                                <span class="material-symbols-outlined">add</span>
+                            </div>
+                        </div>
                     </div>
 
-                    <div class="product-2">
+                    <div class="product-2 mr__box">
                         <img src="assets/photo2.png" alt="levi-shoes-photo">
-                        <p class="product-title">Levi shoes</p>
-                        <p class="product-price">$74.99 <span>$124.99</span></p>
+                        <div class="mr__box__desc">
+                            <p class="product-title">Levi shoes</p>
+                            <p class="product-price">$74.99<span>$124.99</span></p>
+                            <div class="product-amount p-a-2">
+                                <span class="material-symbols-outlined">remove</span>
+                                <span class="p2-quantity">1</span>
+                                <span class="material-symbols-outlined">add</span>
+                            </div>
+                        </div>
                     </div>
 
                     <div class="final shipping">
