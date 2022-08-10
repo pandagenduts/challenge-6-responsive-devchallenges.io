@@ -56,11 +56,26 @@ select:required:invalid {
     position: relative;
 }
 
-.forms span {
+.forms .icon-left {
     position: absolute;
-    left: 12px;
     top: 37px;
+    left: 12px;
     color: var(--col-82);
+}
+
+.forms .icon-right {
+    position: absolute;
+    top: 37px;
+    right: 10px;
+    font-weight: 600;
+    background-color: var(--col-e0);
+    color: var(--col-82);
+    border-radius: 4px;
+    z-index: -1;
+}
+
+.forms .icon-right.active {
+    transform: rotate(-180deg);
 }
 
 input:focus, 
@@ -133,7 +148,12 @@ main {
 
 .country select {
     appearance: none;
+    background: transparent;
 }
+/* 
+.country select:focus {
+    
+} */
 
 .postal-code {
     flex: 1;
@@ -288,6 +308,8 @@ footer a {
 footer a:last-child {
     font-weight: 400;
 }
+
+
 
 @media (max-width: 1000px) {
     main {
